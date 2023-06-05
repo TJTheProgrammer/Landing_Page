@@ -1,0 +1,12 @@
+body {
+    background-image: url('https://media.tenor.com/KHJpLZGxK7kAAAAd/gamer-oneshot.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.header {
+    background-color: cyan;
+    display: flex;
+    opacity: 0.3;
+}
