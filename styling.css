@@ -1,12 +1,18 @@
 body {
-    background-image: url('https://media.tenor.com/KHJpLZGxK7kAAAAd/gamer-oneshot.gif');
+    background-image: url('https://preview.redd.it/7qnkaxjly0q91.png?width=1920&format=png&auto=webp&v=enabled&s=a5507fcb213f4ed0a51a3456003d8e7544b071ef');
     background-repeat: no-repeat;
     background-size: cover;
+    
 
 }
 
 .header {
-    background-color: cyan;
+    background-color: rgba(104, 81, 231, .25);
     display: flex;
-    opacity: 0.3;
+
+}
+
+.heading {
+    margin-right: 40px;
+    margin-left: 40px;
 }
