@@ -1,5 +1,5 @@
 body {
-    background-image: url('https://preview.redd.it/7qnkaxjly0q91.png?width=1920&format=png&auto=webp&v=enabled&s=a5507fcb213f4ed0a51a3456003d8e7544b071ef');
+    background-image: url('background.png');
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -8,9 +8,29 @@ body {
 
 .header {
     background-color: rgba(104, 81, 231, .25);
+    color: white;
     display: flex;
 
 }
+
+.awesome {
+    height: 850px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 2px transparent;
+}
+
+.awesome div {
+    color: rgb(252, 252, 252);
+
+    background-color: rgba(104, 81, 231, .25);
+   
+    
+    
+}
+
 
 .heading {
     margin-right: 40px;
