@@ -1,12 +1,23 @@
 body {
-    background-image: url('background.png');
     background-repeat: no-repeat;
     background-size: cover;
     
 
 }
 
+.First-part {
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: url('background.png');
+}
+.Second-Part {
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: url('background2.png');
+}
+
 .header {
+    
     background-color: rgba(104, 81, 231, .25);
     color: white;
     display: flex;
@@ -29,6 +40,50 @@ body {
    
     
     
+}
+
+.taskbar {
+    background-color: greenyellow;
+
+}
+.taskbar_contents {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+    display: flexbox;
+}
+
+.taskbar_links {
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+    height: 150px; 
+    width: 150px
+}
+.taskbar_links:hover {
+    cursor:pointer;
+}
+
+.options {
+    padding: 10px;
+}
+
+button.donate {
+    background-color: blue;
+    padding: 25px; 
+    border-radius: 20px; 
+    color: white; 
+    display: inline-block;
+    border-style: solid;
+    border-color: gray; 
+    border-width: thick;
+}
+
+button.donate:hover {
+    cursor: pointer;
+    background-color: yellow;
+    transition: 3s;
+    color: black;
 }
 
 
