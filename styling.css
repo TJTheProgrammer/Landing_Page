@@ -58,12 +58,17 @@ body {
     background-size: 175px 175px;
     background-repeat: no-repeat;
     height: 175px; 
-    width: 175px
+    width: 175px;
+    border-color: green;
+    border-width: thick;
+    border-radius: 10px;
+    border-style: solid;
 }
 
 .taskbar_items {
     padding-right: 235px;
-    padding-left: 235px
+    padding-left: 235px;
+   
 }
 
 .taskbar_links:hover {
