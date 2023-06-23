@@ -1,7 +1,7 @@
 body {
     background-repeat: no-repeat;
     background-size: cover;
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
@@ -51,15 +51,21 @@ body {
     padding-bottom: 50px;
     padding-right: 100px;
     padding-left: 100px;
-    display: flexbox;
+    display: flex;
 }
 
 .taskbar_links {
-    background-size: 150px 150px;
+    background-size: 175px 175px;
     background-repeat: no-repeat;
-    height: 150px; 
-    width: 150px
+    height: 175px; 
+    width: 175px
 }
+
+.taskbar_items {
+    padding-right: 235px;
+    padding-left: 235px
+}
+
 .taskbar_links:hover {
     cursor:pointer;
 }
